@@ -1,0 +1,5 @@
+node_modules
+nodemon.json
+*.sublime-project
+*.sublime-workspace
+nohup.out

@@ -1,0 +1,108 @@
+.container {
+    margin-top: 20px;
+}
+.row {
+    margin-bottom: 20px;
+}
+
+#pi-icon {
+    width: 16px;
+    height: 20px;
+}
+
+button.command {
+    margin-right: 20px;
+    margin-top: 10px;
+    min-width: 100px;
+}
+
+.status td {
+    padding: 5px 3px;
+}
+
+.status-label {
+    padding-right: 10px !important;
+    min-width: 80px;
+}
+
+.status-value-label {
+    display: inline-block;
+    min-width: 80px;
+    position: relative;
+    bottom: 2px;
+    text-align: center;
+    color: #fff;
+    padding: 4px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+}
+.status-value-label.status-false {
+    background: #d9534f;
+}
+.status-value-label.status-true {
+    background: #47a447;
+}
+
+#graph {
+    height: 300px;
+}
+
+#settings-form {
+    float: left;
+    line-height: 46px;
+    margin-left: 20px;
+}
+
+.form-group {
+    margin-right: 10px;
+}
+
+#settings-form label {
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#refresh-interval {
+    width: 60px;
+}
+
+#command-result {
+    display: none;
+    font-family: 'Consolas', monospace;
+    padding-top: 5px;
+    font-size: 13px;
+    max-height: 150px;
+    overflow-y: auto;
+}
+
+#command-result > p {
+    margin: 0;
+}
+
+.command-label {
+    font-weight: bold;
+}
+
+.command-label.error {
+    color: #d00635;
+}
+
+#clear-command-result {
+    display: none;
+    cursor: pointer;
+    position: relative;
+    right: 34px;
+    float: right;
+    top: 10px;
+}
+
+#stats {
+    display: none;
+}
+
+.loading {
+    margin-bottom: 70px;
+    color: #777;
+}

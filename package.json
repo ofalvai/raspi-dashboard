@@ -1,6 +1,6 @@
 {
     "name": "raspi-dashboard",
-    "version": "1.0",
+    "version": "1.0.0",
     "author": "Olivér Falvai <ofalvai@gmail.com>",
     "description": "A simple and customisable realtime dashboard for your Raspberry Pi in your browser",
     "repository": {

@@ -4,7 +4,7 @@ A simple and customisable realtime dashboard for your Raspberry Pi in your brows
 
 __Raspi-dashboard__ displays realtime statistics about your device, and lets you execute (predefined) commands. Powered by node.js, socket.io, Highcharts.js, and Twitter Bootstrap.
 
-![Screenshot](raw/master/screenshot.png)
+![Screenshot](/screenshot.png?raw=true)
 
 ## Install & usage
 
